@@ -175,14 +175,19 @@ header {
   align-items: baseline;
   padding: 20px 0;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   header {
-    flex-direction: column;
     background: red;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1000px) {
+  header h1 {
+    padding-bottom: 10px;
   }
 }
 header nav {
-  justify-content: space-between;
   align-items: flex-end;
 }
 header a {
@@ -191,6 +196,11 @@ header a {
   color: black;
   font-size: 1.5rem;
   cursor: pointer;
+}
+@media (max-width: 1000px) {
+  header a {
+    padding: 70px;
+  }
 }
 .footer {
   width: 100%;
