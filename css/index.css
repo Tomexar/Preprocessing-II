@@ -169,7 +169,7 @@ img {
   margin: 0 auto;
 }
 header {
-  border-bottom: 1px dashed #C0C0C0;
+  border-bottom: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -177,7 +177,7 @@ header {
 }
 header .navbar {
   overflow: hidden;
-  background-color: rgba(255, 235, 205, 0.5);
+  background-color: rgba(255, 235, 205, 0.7);
   position: fixed;
   top: 0;
   max-width: 800px;
@@ -199,7 +199,7 @@ header .navbar {
 }
 header a {
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 20px;
   color: black;
   font-size: 1.5rem;
   cursor: pointer;
