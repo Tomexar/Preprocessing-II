@@ -1,1 +1,28 @@
 // Navigation Styles here
+
+header {
+    border-bottom: 1px dashed @navigation-border;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0;
+
+    @media(max-width:500px){
+        flex-direction: column;
+        background: red;
+    }
+    
+
+    nav{
+        justify-content: space-between;
+        align-items: flex-end;
+
+    }
+    a{
+        text-decoration: none;
+        padding: 0 10px;
+        color:black;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}    

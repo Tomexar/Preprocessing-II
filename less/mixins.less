@@ -1,1 +1,20 @@
 // Mixins in here
+
+.custom-btn() {
+    display: block;
+    cursor: pointer;
+    height:40px;
+    font-size: 2rem;
+    border:1px solid @eastern-blue; 
+    width:80%;
+    padding: 10px 0;
+    background-color: @eastern-blue;
+    color: @white;
+    font-size: 15px;  
+    border-radius: 10px;
+    
+    &:hover {
+      background-color: @white;
+      color: @eastern-blue;
+    }
+}
