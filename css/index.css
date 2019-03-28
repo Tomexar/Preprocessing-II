@@ -175,13 +175,13 @@ header {
   align-items: baseline;
   padding: 20px 0;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   header {
     flex-direction: column;
     align-items: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   header h1 {
     padding-bottom: 10px;
   }
@@ -196,7 +196,7 @@ header a {
   font-size: 1.5rem;
   cursor: pointer;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   header a {
     padding: 25px;
   }
@@ -221,7 +221,7 @@ header a {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .content-section {
     flex-direction: column;
     align-items: center;
@@ -232,7 +232,7 @@ header a {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .content-section .text-content {
     width: 100%;
   }
@@ -241,7 +241,7 @@ header a {
   width: 48%;
   padding-left: 1%;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .content-section .img-content {
     width: 100%;
     padding-left: 3%;
@@ -258,7 +258,7 @@ header a {
   padding-left: 1%;
   padding-right: 0;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .inverse-content .text-content {
     order: -1;
   }
@@ -267,7 +267,7 @@ header a {
   padding-right: 1%;
   padding-left: 0;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .inverse-content .img-content {
     padding-left: 3%;
     width: 100%;
@@ -277,7 +277,7 @@ header a {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .content-destination {
     width: 100%;
   }
@@ -291,7 +291,7 @@ header a {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
@@ -301,7 +301,7 @@ header a {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width:500px) {
   .home .content-pick .destination {
     width: 80%;
   }
